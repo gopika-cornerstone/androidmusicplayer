@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gopika.onrepeatmusicplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:5:5-71
+11-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:5:22-68
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:7:5-79
+13-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:7:22-77
+14
+15    <application
+15-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:9:5-26:19
+16        android:allowBackup="true"
+16-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /Users/gopikasriram/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@drawable/loading_page"
+19-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:11:9-46
+20        android:label="@string/app_name"
+20-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:12:9-41
+21        android:requestLegacyExternalStorage="true"
+21-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:13:9-52
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:16:9-40
+26        <activity android:name="com.gopika.onrepeatmusicplayer.MainActivity2" />
+26-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:17:9-60
+26-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:17:19-48
+27        <activity android:name="com.gopika.onrepeatmusicplayer.SmartMusicPlayer" />
+27-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:18:9-54
+27-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:18:19-51
+28        <activity android:name="com.gopika.onrepeatmusicplayer.MainActivity" >
+28-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:19:9-25:20
+28-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:19:19-47
+29            <intent-filter>
+29-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:21:17-69
+30-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:23:17-77
+32-->/Users/gopikasriram/Desktop/OnRepeat Music Player/app/src/main/AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[com.karumi:dexter:6.2.1] /Users/gopikasriram/.gradle/caches/transforms-2/files-2.1/958f859bb6b28a64bb06c6abff1b0fee/jetified-dexter-6.2.1/AndroidManifest.xml:27:9-29:72
+36            android:name="com.karumi.dexter.DexterActivity"
+36-->[com.karumi:dexter:6.2.1] /Users/gopikasriram/.gradle/caches/transforms-2/files-2.1/958f859bb6b28a64bb06c6abff1b0fee/jetified-dexter-6.2.1/AndroidManifest.xml:28:13-60
+37            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+37-->[com.karumi:dexter:6.2.1] /Users/gopikasriram/.gradle/caches/transforms-2/files-2.1/958f859bb6b28a64bb06c6abff1b0fee/jetified-dexter-6.2.1/AndroidManifest.xml:29:13-69
+38    </application>
+39
+40</manifest>
